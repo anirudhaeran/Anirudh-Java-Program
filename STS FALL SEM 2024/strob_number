@@ -1,0 +1,5 @@
+class strob_number
+{
+    Scanner sc=new Scanner(System.in);
+    
+}
