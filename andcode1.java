@@ -5,7 +5,7 @@ class andcode1{
 
     String part1="";
     String part2="";
-    String sorted_part1="";
+    String sortedpart1="";
     public void arrange(String s1)
     {
         int sum=0;
@@ -29,11 +29,11 @@ class andcode1{
         char[] characters = part1.toCharArray();
         Arrays.sort(characters);
         String sortedString = new String(characters);
-        sorted_part1=sortedString;
+        sortedpart1=sortedString;
     }
     public void display()
     {
-        String Final=sorted_part1+part2;
+        String Final=sortedpart1+part2;
         System.out.println(part1);
         System.out.println(part2);
         System.out.println("FINAL STRING: "+Final);
