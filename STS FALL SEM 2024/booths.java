@@ -6,7 +6,8 @@ public class booths {
         int A = n1;
         int S = -n1;
         int P = 0;
-        int count = Integer.SIZE;            
+        int count = Integer.SIZE;       
+        System.out.println(count);     
         while (count > 0) {
             if ((r & 1) == 1) {
                 P += A;
