@@ -13,16 +13,18 @@ public class blockswap1 {
         int temp1[]=new int[n-d];
         int temp2[]=new int[d];
         int j=0;
+        int c=0;
         for(int i=0;i<n;i++){
-            if(i>=d)
-            temp1[i]=a[i];
+            if(i>=d){
+            temp1[c]=a[i];
+            c++;}
             else{
             temp2[j]=a[i];
             j++;}}
 
         int k=0;
         for(int i=0;i<n;i++){
-            if(i>n-d)
+            if(i<n-d)
             a[i]=temp1[i];
             else{
             a[i]=temp2[k];
